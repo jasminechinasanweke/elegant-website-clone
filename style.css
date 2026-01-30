@@ -76,3 +76,145 @@
     color: white;
 }
 
+.Review{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.review_content{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+.review_content h5{
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.245);
+    margin-left: -40px;
+    font-weight: 100;
+
+}
+.review_content h6{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+
+}
+.review_content p{
+    font-size: 35px;
+    color: black;
+    
+}
+
+.blogpost{
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blogpost_content{
+    width: 100%;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.blogpost_details{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blogpost_images  {
+    width: 80%;
+    display: flex;
+    
+    justify-content: center;
+    gap: 30px;
+} 
+.images_div{
+    width: 33.3%;
+}  
+.images_div img{
+        width: 100%;
+    }
+.logo_collection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+
+.logo_holders{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    height: 50vh;
+    padding: 20px 0px;
+}
+.newsletter_content{
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}}
+
+.Follow {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    
+}
+.follow_content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.follow_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 40px;
+    width: 100%;
+    
+}
+.follow_images img{
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    padding: 70px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer_content{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .footer_img, .quick, .Help, .Contact, {
+     width: 25%;
+} */
+   
+
